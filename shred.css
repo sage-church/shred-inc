@@ -62,7 +62,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
     align-self: flex-end;
     width: 330px;
     margin: -30px 7% 0 0;
@@ -104,7 +103,7 @@ address {
     box-shadow: 0px 2px 5px 5px rgba(17, 17, 17, 0.897);
 }
 
-#rent-box {
+#browse-box {
     text-align: center;
     align-self: center;
     margin: 20px 0;
@@ -117,12 +116,12 @@ address {
     font-size: 15.5px;
 }
 
-#rent-box:hover{
+#browse-box:hover{
     background-color: rgb(34, 16, 99);
     cursor: pointer;
 }
 
-#rent-box:active {
+#browse-box:active {
     background-color: rgb(46, 27, 117);
 }
 
