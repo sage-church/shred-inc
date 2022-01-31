@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url("cinzel.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("libre.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    background-image: url("background.jpg");
+    height: 100%;
+    min-height: 540px;
+    min-width: 784px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    height: 30%;
+    min-height: 106px;
+    background: 
+        linear-gradient(160deg, 
+            rgba(26, 0, 68, 0.534) 3%, 
+            rgba(0, 0, 0, 0) 22%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    font-size: clamp(1.5rem, -6rem + 15.5vw, 2.7rem);
+    font-family: "Cinzel", serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(38, 2, 138);
+    border-radius: 30px;
+    padding: 2% 4.5%;
+    background: 
+        linear-gradient(160deg, 
+            rgba(30, 3, 105, 0.966),
+            rgba(9, 1, 39, 0.719));
+}
+
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    align-self: flex-end;
+    width: 330px;
+    margin: -30px 7% 0 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+address {
+    font-family: 'Libre Baskerville', serif;
+    padding: 10px;
+    color: rgb(82, 78, 88);
+    text-shadow: 1px 1.5px rgb(22, 4, 70);
+    background-color: rgb(3, 3, 3);
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px 8px rgb(3, 3, 3);
+}
+
+#title-container {
+    width: 30%;
+    height: 100%;
+    min-width: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-content {
+    background: 
+        linear-gradient(35deg, 
+            rgb(65, 49, 151) 25%, 
+            rgb(90, 72, 189) 50%);
+    border-radius: 15px;
+    padding: 20px 20px;
+    box-shadow: 0px 2px 5px 5px rgba(17, 17, 17, 0.897);
+}
+
+#rent-box {
+    text-align: center;
+    align-self: center;
+    margin: 20px 0;
+    background-color: rgb(23, 9, 73);
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: solid .2px rgb(91, 67, 146);
+    box-shadow: 1px 1px 1px 1px black;
+    color: rgb(199, 199, 199);
+    font-size: 15.5px;
+}
+
+#rent-box:hover{
+    background-color: rgb(34, 16, 99);
+    cursor: pointer;
+}
+
+#rent-box:active {
+    background-color: rgb(46, 27, 117);
+}
+
+#main-content h2 {
+    text-align: center;
+    color: rgb(228, 228, 228);
+    font-family: "Cinzel", serif;
+    margin-top: 10px;
+}
+
+#main-content p {
+    color: rgb(228, 228, 228);
+    font-family: 'Libre Baskerville', serif;
+}
+
+
