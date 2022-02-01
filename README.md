@@ -1,5 +1,9 @@
 # shred-inc
 
+SUMMARY:
+
+Landing page for a guitar rental company.
+
 BUILT WITH:
 - HTML
 - CSS
