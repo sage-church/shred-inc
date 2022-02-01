@@ -16,3 +16,7 @@ project files sitting in the same folder.
 Once the files are correctly stored on the computer, opening the index.html file in a browser should be successful.
 
 No installations are needed to load the page.
+
+LICENSE:
+
+Distributed under the MIT License. See the LICENSE file for more information.
