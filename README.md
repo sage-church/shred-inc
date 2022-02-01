@@ -5,6 +5,7 @@ BUILT WITH:
 - CSS
 
 SETTING IT UP:
+
 Since there are only five files total for the project, the css and html urls/links were coded with the intention of all the
 project files sitting in the same folder.
 
