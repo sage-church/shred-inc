@@ -67,6 +67,11 @@ main {
     margin: -30px 7% 0 0;
 }
 
+main div a {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -112,7 +117,6 @@ address {
     border-radius: 25px;
     border: solid .2px rgb(91, 67, 146);
     box-shadow: 1px 1px 1px 1px black;
-    color: rgb(199, 199, 199);
     font-size: 15.5px;
 }
 
