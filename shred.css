@@ -14,7 +14,6 @@
 
 html {
     height: 100%;
-    min-height: 540px;
 }
 
 body {
@@ -38,7 +37,7 @@ body {
 header {
     position: relative;
     z-index: 1;
-    height: 30%;
+    height: 20%;
     min-height: 106px;
     background: 
         linear-gradient(160deg, 
@@ -49,7 +48,7 @@ header {
 #title-container {
     width: 30%;
     height: 100%;
-    min-width: 122px;
+    min-width: 210px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,7 +137,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
 }
 
 address {
@@ -155,24 +153,32 @@ address {
     h1 {
         font-size: 35.2px
     }
-
-    .bg-image {
-        filter: blur(1px);
-    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     body {
         justify-content: flex-start;
     }
 
     .bg-image {
-        filter: blur(5px);
+        position: fixed;
+        min-height: auto;
+        background-image: 
+            url(background.jpg),
+            linear-gradient(
+                140deg, 
+                rgb(78, 78, 78) 25%, 
+                rgb(48, 48, 48) 50%, 
+                rgb(78, 78, 78));
+        background-blend-mode: overlay;
     }
 
     header {
-        height: 20%;
-        padding: 2% 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 3% 0 0 0;
     }
 
     #title-container {
@@ -193,7 +199,7 @@ address {
     main {
         align-self: center;
         width: 330px;
-        margin: 4% 0;
+        margin: 0;
     }
 
     #browse-box {
@@ -201,16 +207,33 @@ address {
     }
 
     footer {
+        height: 100%;
         justify-content: flex-end;
-        /* padding-bottom: 0; */
+        align-items: flex-end;
+        padding-bottom: 0;
     }
 
     address {
         font-size: 14.4px;
-        position: absolute;
-        right: 12px;
-        bottom: 12px;
-        padding: 0;
-        box-shadow: 2px 0 10px 9px rgb(3, 3, 3);
+        margin: 15px 15px 15px 0;
+    }
+}
+
+@media (max-width: 472px) {
+    footer {
+        justify-content: center;
+    }
+
+    address {
+        margin: 10px 0;
+        min-width: 128px;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    main {
+        width: 260px;
     }
 }
