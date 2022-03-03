@@ -1,3 +1,8 @@
+/* TODO: 
+    - possibly find way to remove flashing of background image
+    - review code for unneeded properties
+*/
+
 @font-face {
     font-family: "Cinzel";
     src: url("cinzel.woff") format("woff");
@@ -25,14 +30,20 @@ body {
     justify-content: space-between;
 }
 
+
 .bg-image {
     position: absolute;
     inset: 0;
-    background-image: url('background.jpg');
+    background-image:
+            url(background.jpg),
+            linear-gradient( 
+                rgb(0, 0, 0), 
+                rgb(0, 0, 0));
     background-size: 100% 100%;
     z-index: 0;
     min-height: 540px;
 }
+
 
 header {
     position: relative;
@@ -40,7 +51,7 @@ header {
     height: 20%;
     min-height: 106px;
     background: 
-        linear-gradient(160deg, 
+        linear-gradient(165deg, 
             rgba(37, 0, 97, 0.534) 3%, 
             rgba(0, 0, 0, 0) 22%);
 }
@@ -105,11 +116,6 @@ main {
     font-family: 'Libre Baskerville', serif;
 }
 
-main div a {
-    text-decoration: none;
-    color: rgb(199, 199, 199);
-}
-
 #browse-box {
     text-align: center;
     align-self: center;
@@ -129,6 +135,11 @@ main div a {
 
 #browse-box:active {
     background-color: rgb(46, 27, 117);
+}
+
+main div a {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
 }
 
 footer {
@@ -157,20 +168,18 @@ address {
 
 @media (max-width: 768px) { 
     body {
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 
     .bg-image {
         position: fixed;
         min-height: auto;
-        background-image: 
+        background-image:
             url(background.jpg),
             linear-gradient(
-                140deg, 
-                rgb(78, 78, 78) 25%, 
-                rgb(48, 48, 48) 50%, 
-                rgb(78, 78, 78));
-        background-blend-mode: overlay;
+                rgb(0, 0, 0), 
+                rgba(0, 0, 0));
+        filter: brightness(.5);
     }
 
     header {
@@ -198,16 +207,22 @@ address {
 
     main {
         align-self: center;
-        width: 330px;
+        width: auto;
         margin: 0;
     }
 
+    #description {
+        align-self: center;
+        width: 330px;
+        box-sizing: border-box;
+        
+    }
+
     #browse-box {
-        margin: 10px 0;
+        margin: 30px 0;
     }
 
     footer {
-        height: 100%;
         justify-content: flex-end;
         align-items: flex-end;
         padding-bottom: 0;
@@ -233,7 +248,7 @@ address {
 }
 
 @media (max-width: 380px) {
-    main {
+    #description {
         width: 260px;
     }
 }
