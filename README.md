@@ -2,20 +2,19 @@
 
 SUMMARY:
 
-Landing page for a guitar rental company.
+Responsive landing page for a guitar rental company.
 
 BUILT WITH:
 - HTML
 - CSS
 
-SETTING IT UP:
+SET UP:
 
-Since there are only five files total for the project, the css and html urls/links were coded with the intention of all the
-project files sitting in the same folder.
+The file references within the code are written so that all files will need to be saved within the same folder.
 
-Once the files are correctly stored on the computer, opening the index.html file in a browser should be successful.
+Once the files are correctly stored in the same folder together, the 'index.html' file should be opened within a browser in order to display the landing page.
 
-No installations are needed to load the page.
+No installations/programs are needed aside from the project files to view the page.
 
 LICENSE:
 
