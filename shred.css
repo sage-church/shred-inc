@@ -38,6 +38,7 @@ body {
     min-height: 540px;
 }
 
+/* Header */
 
 header {
     position: relative;
@@ -73,6 +74,8 @@ h1 {
             rgba(9, 1, 39, 0.719));
 }
 
+/* Main content  */
+
 main {
     position: relative;
     z-index: 1;
@@ -107,7 +110,7 @@ main {
     font-family: 'Libre Baskerville', serif;
 }
 
-#browse-box {
+#browse-button {
     text-align: center;
     margin: 20px 0;
     background-color: rgb(23, 9, 73);
@@ -118,19 +121,21 @@ main {
     font-size: 15.5px;
 }
 
-#browse-box:hover{
+#browse-button:hover{
     background-color: rgb(34, 16, 99);
     cursor: pointer;
 }
 
-#browse-box:active {
+#browse-button:active {
     background-color: rgb(46, 27, 117);
 }
 
-main div a {
+main a {
     text-decoration: none;
     color: rgb(199, 199, 199);
 }
+
+/* Footer */
 
 footer {
     position: relative;
@@ -149,6 +154,8 @@ address {
     border-radius: 20px;
     box-shadow: 0px 2px 8px 8px rgb(3, 3, 3);
 }
+
+/* Styles for smaller screen widths */
 
 @media (max-width: 832px) {
     h1 {
