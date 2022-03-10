@@ -1,4 +1,4 @@
-# shred-inc
+# Shred Inc.
 
 ## SUMMARY
 
