@@ -11,9 +11,13 @@ Responsive landing page for a guitar rental company. The page contains the compa
 
 ## SET UP
 
-The file references within the code are written so that all files will need to be saved within the same folder.
+### Access page through web
 
-Once the files are correctly stored in the same folder together, the 'index.html' file can be opened within a browser in order to display the landing page.
+The landing page can be found at 'http://shredinc.epizy.com'.
+
+### Download and run page locally
+
+The file references within the code are written so that all files will need to be saved within the same folder. Once the files are correctly downloaded and stored in the same folder together, the 'index.html' file can be opened within a browser in order to display the landing page.
 
 No installations/programs are needed aside from the project files to view the page.
 
