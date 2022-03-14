@@ -13,7 +13,7 @@ Responsive landing page for a guitar rental company. The page contains the compa
 
 ### Access page through web
 
-The landing page can be found at 'http://shredinc.epizy.com'.
+The landing page can be found at http://shredinc.epizy.com.
 
 ### Download and run page locally
 
