@@ -235,3 +235,63 @@ address {
         width: 260px;
     }
 }
+
+@media (max-width: 645px) {
+    .bg-image {
+        position: fixed;
+        background-image:
+            url(background.jpg),
+            linear-gradient(
+                rgb(0, 0, 0), 
+                rgba(0, 0, 0));
+        filter: brightness(.4);
+    }
+}
+
+@media (max-width: 550px) {
+    .bg-image {
+        position: fixed;
+        background-image:
+            url(background.jpg),
+            linear-gradient(
+                rgb(0, 0, 0), 
+                rgba(0, 0, 0));
+        filter: brightness(.3);
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-image {
+        position: fixed;
+        background-image:
+            url(background.jpg),
+            linear-gradient(
+                rgb(0, 0, 0), 
+                rgba(0, 0, 0));
+        filter: brightness(.2);
+    }
+}
+
+@media (max-width: 450px) {
+    .bg-image {
+        position: fixed;
+        background-image:
+            url(background.jpg),
+            linear-gradient(
+                rgb(0, 0, 0), 
+                rgba(0, 0, 0));
+        filter: brightness(.1);
+    }
+}
+
+@media (max-width: 400px) {
+    .bg-image {
+        position: fixed;
+        background-image:
+            url(background.jpg),
+            linear-gradient(
+                rgb(0, 0, 0), 
+                rgba(0, 0, 0));
+        filter: brightness(0);
+    }
+}
